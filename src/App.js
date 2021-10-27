@@ -11,7 +11,7 @@ const OPENSEA_LINK = '';
 // eslint-disable-next-line
 const TOTAL_MINT_COUNT = 50;
 
-const CONTRACT_ADDRESS = "0x4CA26101D00Cc0C89E6C5F0eDfA916910bD7a78B";
+const CONTRACT_ADDRESS = "0x7637f4BD04DA06f47ebf04eb44ECB39fD1c1e0c1";
 
 const App = () => {
 
@@ -168,6 +168,13 @@ const App = () => {
             rel="noreferrer"
           >{`built by @${TWITTER_HANDLE}`}</a>
         </div>
+        <br/>
+          <a
+            href={"https://testnets.opensea.io/collection/kittynft"}
+            target="_blank"
+            rel='noreferrer'
+          > View Kitty NFT Collection on OpenSea
+          </a>
       </div>
     </div>
   );
