@@ -153,9 +153,9 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header gradient-text">My NFT Collection</p>
+          <p className="header gradient-text">Kitty NFT Collection</p>
           <p className="sub-text">
-            Each unique and elegant. Mint your NFT Cat today!
+            Each unique and elegant. Mint your NFT Cat on OpenSea for free today (just pay gas fees)!
           </p>
           {currentAccount === "" ? renderNotConnectedContainer() : renderMintUI()}
         </div>
